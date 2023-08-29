@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <nav class="w-full flex justify-center items-center py-3">
+    <nav class="w-full flex justify-center items-center p-3 border-b border-b-white" >
         <ul class="flex items-center gap-x-3">
             <li class="">
                 <router-link to="/">Home</router-link>
