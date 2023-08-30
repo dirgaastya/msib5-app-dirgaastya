@@ -61,7 +61,7 @@ export const useTodoStore = defineStore('todo', {
         async updateTodoCompleted(id: number, status: boolean) {
             try {
                 await axios.put(`https://jsonplaceholder.typicode.com/todos/${id}`, {
-                    completed: !status,
+                    completed: status,
                 });
             } catch (error) {
                 console.error(error);
