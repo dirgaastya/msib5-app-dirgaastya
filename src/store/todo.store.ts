@@ -12,9 +12,15 @@ export const useTodoStore = defineStore('todo', {
     state: (): {
         todos: Ttodo[],
         filterTodos: Ttodo[],
+        title: string,
+        filterMode: string,
+        isLoading: boolean
     } => ({
         todos: [],
         filterTodos: [],
+        title: "",
+        filterMode: "all",
+        isLoading: true
     }),
     getters: {
         completedTodos: (state) => state.todos.filter(todo => todo.completed),
@@ -27,20 +33,24 @@ export const useTodoStore = defineStore('todo', {
                 const response = await axios.get('https://jsonplaceholder.typicode.com/todos?_limit=5');
                 this.todos = response.data;
                 this.filterTodos = response.data;
+                this.isLoading = false
             } catch (error) {
                 console.error(error);
             }
         },
-        async addTodo(title: string) {
+        async addTodo() {
             try {
-                if (title !== '') {
+                if (this.title !== '') {
+                    this.isLoading = true
                     const response = await axios.post('https://jsonplaceholder.typicode.com/todos', {
                         userId: 1,
-                        title,
+                        title: this.title,
                         completed: false,
                     });
                     this.todos.unshift(response.data);
                     this.filterTodos = this.todos
+                    this.title = ""
+                    this.isLoading = false
                 } else {
                     window.alert('Please fill title!');
                 }
@@ -59,21 +69,26 @@ export const useTodoStore = defineStore('todo', {
         },
         async deleteTodo(id: number) {
             try {
+                this.isLoading = true
                 await axios.delete(`https://jsonplaceholder.typicode.com/todos/${id}`);
                 this.todos = this.todos.filter((todo) => todo.id !== id);
                 this.filterTodos = this.todos
+                this.isLoading = false
             } catch (error) {
                 console.error(error);
             }
         },
         filterActiveTodos() {
             this.filterTodos = this.activeTodos
+            this.filterMode = "active"
         },
         filterCompletedTodos() {
             this.filterTodos = this.completedTodos
+            this.filterMode = "completed"
         },
         filterAll() {
             this.filterTodos = this.todos
+            this.filterMode = "all"
         },
         clearCompletedTodos() {
             this.todos = this.todos.filter(todo => !todo.completed)
