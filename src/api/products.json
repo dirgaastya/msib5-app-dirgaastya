@@ -1,0 +1,107 @@
+[
+    {
+      "name": "Product 1",
+      "image": "bottle",
+      "realPrice": "Rp.55.000",
+      "discPrice": "Rp.49.5000",
+      "discount": "-10%"
+    },
+    {
+      "name": "Product 2",
+      "image": "shoes",
+      "realPrice": "Rp.75.000",
+      "discPrice": "Rp.60.000",
+      "discount": "-20%"
+    },
+    {
+      "name": "Product 3",
+      "image": "bottle",
+      "realPrice": "Rp.30.000",
+      "discPrice": "Rp.27.000",
+      "discount": "-10%"
+    },
+    {
+      "name": "Product 4",
+      "image": "shoes",
+      "realPrice": "Rp.90.000",
+      "discPrice": "Rp.72.000",
+      "discount": "-20%"
+    },
+    {
+      "name": "Product 5",
+      "image": "bottle",
+      "realPrice": "Rp.50.000",
+      "discPrice": "Rp.45.000",
+      "discount": "-10%"
+    },
+    {
+      "name": "Product 6",
+      "image": "shoes",
+      "realPrice": "Rp.60.000",
+      "discPrice": "Rp.48.000",
+      "discount": "-20%"
+    },
+    {
+      "name": "Product 7",
+      "image": "bottle",
+      "realPrice": "Rp.70.000",
+      "discPrice": "Rp.63.000",
+      "discount": "-10%"
+    },
+    {
+      "name": "Product 8",
+      "image": "shoes",
+      "realPrice": "Rp.80.000",
+      "discPrice": "Rp.64.000",
+      "discount": "-20%"
+    },
+    {
+      "name": "Product 9",
+      "image": "shoes",
+      "realPrice": "Rp.35.000",
+      "discPrice": "Rp.31.500",
+      "discount": "-10%"
+    },
+    {
+      "name": "Product 10",
+      "image": "bottle",
+      "realPrice": "Rp.100.000",
+      "discPrice": "Rp.80.000",
+      "discount": "-20%"
+    },
+    {
+      "name": "Product 11",
+      "image": "shoes",
+      "realPrice": "Rp.45.000",
+      "discPrice": "Rp.40.500",
+      "discount": "-10%"
+    },
+    {
+      "name": "Product 12",
+      "image": "bottle",
+      "realPrice": "Rp.65.000",
+      "discPrice": "Rp.52.000",
+      "discount": "-20%"
+    },
+    {
+      "name": "Product 13",
+      "image": "shoes",
+      "realPrice": "Rp.55.000",
+      "discPrice": "Rp.49.500",
+      "discount": "-10%"
+    },
+    {
+      "name": "Product 14",
+      "image": "bottle",
+      "realPrice": "Rp.75.000",
+      "discPrice": "Rp.60.000",
+      "discount": "-20%"
+    },
+    {
+      "name": "Product 15",
+      "image": "shoes",
+      "realPrice": "Rp.30.000",
+      "discPrice": "Rp.27.000",
+      "discount": "-10%"
+    }
+  ]

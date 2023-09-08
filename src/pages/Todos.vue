@@ -2,7 +2,7 @@
 import { onMounted } from "vue";
 import { useTodoStore } from "../store/todo.store";
 import Input from "../components/Input.vue";
-import Button from "../components/Button.vue";
+import FilterButton from "../components/FilterButton.vue";
 import Card from "../components/Card.vue";
 import Loading from "../components/Loading.vue";
 
@@ -22,9 +22,13 @@ onMounted(() => {
         <div class="py-3 flex items-center justify-between font-light">
             <p class="text-base">{{ todoStore.activeTodosCount }} items left</p>
             <div class="flex items-center gap-x-3">
-                <Button @click="todoStore.filterAll" :className="todoStore.filterMode === 'all'" label="All" />
-                <Button @click="todoStore.filterActiveTodos" :className="todoStore.filterMode === 'active'" label="Active" />
-                <Button
+                <FilterButton @click="todoStore.filterAll" :className="todoStore.filterMode === 'all'" label="All" />
+                <FilterButton
+                    @click="todoStore.filterActiveTodos"
+                    :className="todoStore.filterMode === 'active'"
+                    label="Active"
+                />
+                <FilterButton
                     @click="todoStore.filterCompletedTodos"
                     :className="todoStore.filterMode === 'completed'"
                     label="Completed"
