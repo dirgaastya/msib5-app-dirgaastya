@@ -11,13 +11,16 @@ import Button from "./Button.vue";
                 Join over 4,000+ startups already growing with Morpheme.
             </p>
         </div>
-        <div class="flex items-center gap-x-3">
-            <input
-                type="email"
-                placeholder="Enter Your Email"
-                class="h-[52px] py-[10px] px-[18px] text-lg ease-linear duration-300 rounded-lg"
-            />
-            <Button label="Subscribe" color="primary" />
+        <div class="space-y-3">
+            <div class="flex items-center gap-x-3">
+                <input
+                    type="email"
+                    placeholder="Enter Your Email"
+                    class="h-[52px] py-[10px] px-[18px] text-lg ease-linear duration-300 rounded-lg"
+                />
+                <Button label="Subscribe" color="primary" />
+            </div>
+            <img src="../assets/icons/info-circle.svg" alt="info" />
         </div>
     </div>
 </template>
