@@ -1,0 +1,147 @@
+[
+    {
+        "name" : "Product",
+        "items" :[
+            {
+            "name" : "Overview",
+            "new" : false
+            },
+            {
+            "name" : "Features",
+            "new" : false
+            },
+            {
+            "name" : "Solutions",
+            "new" : true
+            },
+            {
+            "name" : "Tutorials",
+            "new" : false
+            },
+            {
+            "name" : "Pricing",
+            "new" : false
+            },
+            {
+            "name" : "Releases",
+            "new" : false
+            }
+        ]
+    },
+    {
+        "name" : "Company",
+        "items" :[
+            {
+            "name" : "About us",
+            "new" : false
+            },
+            {
+            "name" : "Careers",
+            "new" : false
+            },
+            {
+            "name" : "Press",
+            "new" : false
+            },
+            {
+            "name" : "News",
+            "new" : false
+            },
+            {
+            "name" : "Media kit",
+            "new" : false
+            },
+            {
+            "name" : "Contact",
+            "new" : false
+            }
+        ]
+    },
+    {
+        "name" : "Resources",
+        "items" :[
+            {
+            "name" : "Blog",
+            "new" : false
+            },
+            {
+            "name" : "Newsletter",
+            "new" : false
+            },
+            {
+            "name" : "Events",
+            "new" : false
+            },
+            {
+            "name" : "Help centre",
+            "new" : false
+            },
+            {
+            "name" : "Tutorials",
+            "new" : false
+            },
+            {
+            "name" : "Support",
+            "new" : false
+            }
+        ]
+    },
+    {
+        "name" : "Social",
+        "items" :[
+            {
+            "name" : "Twitter",
+            "new" : false
+            },
+            {
+            "name" : "LinkedIn",
+            "new" : false
+            },
+            {
+            "name" : "Facebook",
+            "new" : false
+            },
+            {
+            "name" : "GitHub",
+            "new" : false
+            },
+            {
+            "name" : "AngelList",
+            "new" : false
+            },
+            {
+            "name" : "Dribbble",
+            "new" : false
+            }
+        ]
+    },
+    {
+        "name" : "Legal",
+        "items" :[
+            {
+            "name" : "Terms",
+            "new" : false
+            },
+            {
+            "name" : "Privacy",
+            "new" : false
+            },
+            {
+            "name" : "Cookies",
+            "new" : false
+            },
+            {
+            "name" : "Lincenses",
+            "new" : false
+            },
+            {
+            "name" : "Settings",
+            "new" : false
+            },
+            {
+            "name" : "Contact",
+            "new" : false
+            }
+        ]
+    }
+]

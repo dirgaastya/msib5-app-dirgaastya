@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Men's Fashion",
+        "image": "categories-1"
+    },
+    {
+        "name": "Women's Fashion",
+        "image": "categories-2"
+    },
+    {
+        "name": "Bicycle",
+        "image": "categories-3"
+    },
+    {
+        "name": "Handphone",
+        "image": "categories-4"
+    },
+    {
+        "name": "Hobbies and Collections",
+        "image": "categories-5"
+    },
+    {
+        "name": "Household",
+        "image": "categories-6"
+    }
+]
